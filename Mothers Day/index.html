@@ -4,20 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
 
 <title>Mothers-Day</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<h1> Feliz Día De La Madre </h1>
+<h1 style="font-size:10vw"> Feliz Día De La Madre </h1>
+
 <body>
     <h2>
         <!-- <img align="middle" src="Mother's Day.jpg" alt="myimage"/> -->
-        <img src="Mother's Day.jpg" alt="centered image" class="center">
+        <img src="Mother's Day.jpg" style="max-width:100%;height:auto;" alt="centered image" class="center">
         <!-- <img src="Mother's Day.jpg" alt="centered image" /> -->
        
     </h2>
+   
+    
+        <div id="box">
+                    <img id="image" style="max-width:100%;height:auto;"/>
+                </div>
+                <br />
+                
+      <script>
+        let images = [
+    "https://images.unsplash.com/photo-1533907650686-70576141c030?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+    "https://www.dailyhawker.com/wp-content/uploads/2019/09/1-1-82-scaled.jpg",
+    "https://cdn.pixabay.com/photo/2019/03/29/03/25/beautiful-flowers-4088458_960_720.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61QhTtn%2BikL.jpg",
+    "http://thewowstyle.com/wp-content/uploads/2015/03/Amazing-Flower-Wallpaper.jpg",
+    "https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509__480.jpg",
+    "https://cdn.pixabay.com/photo/2014/12/17/21/30/wild-flowers-571940_1280.jpg",
+    "https://pixabay.com/photos/marguerite-daisy-flower-white-729510/",
+    "https://cdn.pixabay.com/photo/2016/08/03/14/24/roses-1566792__480.jpg",
+    "https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__480.jpg"
+     ];
+
+function randImg() {
+    let size = images.length
+    let x = Math.floor(size * Math.random())
+    document.getElementById('image').src = images[x];
+}
+
+randImg();
+</script>
+
+
+
 
 </body>
 

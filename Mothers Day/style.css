@@ -1,11 +1,17 @@
 h1{
     font-family: 'Great Vibes', cursive;
-    font-size: 100px;
-    color: black;
-    text-align: center
+    /* font-size: 100px; */
+    color: white;
+    text-align: center;
 
 }
+img {
 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  }
 
 .center {
     display: block;
@@ -18,8 +24,17 @@ h1{
     
 
 body{
-    background-image: url(https://cdn.hipwallpaper.com/i/0/12/z5RhOm.jpg);
-    
-    /* background-image: url(https://wallpaperset.com/w/full/9/4/3/18920.jpg); */
+
+    background-image: url(http://www.hdwallpaperspulse.com/wp-content/uploads/2019/10/purple-nature-MAC-Wallpapers-4K.jpeg);
+    /* background-repeat: repeat-y; */
 
 }
+
+
+html, body {
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=130418"), default;
+    /* cursor: url("http://www.rw-designer.com/cursor-extern.php?id=130278"), default; */
+    /* just change the cursor.ico path to your location */
+}
+
+
